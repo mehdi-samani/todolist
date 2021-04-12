@@ -1,0 +1,15 @@
+.todo-container{
+
+    border: 1px solid $borderColor;
+    margin-top: 11px;
+  
+    min-height: 200px;
+    max-height: 210px;
+ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+}

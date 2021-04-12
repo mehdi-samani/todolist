@@ -1,0 +1,51 @@
+.container-form-todo{
+   @include width(600px);
+   @include height(500px);
+    margin: 2rem auto;
+   background-color: $colorMain;
+    @include border-radii(5px, 5px , 5px , 5px);
+    @include padding(40px);
+}
+.form-main{
+    width: 100%;
+    form{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+        align-items: center;
+        select{
+            direction: rtl;
+            @include padding(10px);
+           
+            border-style: $actBtn;
+        }
+        .input-main{
+            display: flex;
+    justify-content: center;
+    animation: c;
+    align-items: center;
+    margin-right: 50px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    .MuiSvgIcon-root{
+        margin-left: 0px;
+        background-color: $actBtn;
+        @include height(30px);
+        @include width(30px);
+    }   
+    input{
+        @include height(30px);
+        @include width(300px);
+    }
+    button{
+        margin: 0;
+        padding: 0;
+        border: none;
+        background: transparent;
+       @include height(30px);
+    }
+    
+        }
+    }
+
+}
